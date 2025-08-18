@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.navbar-gradient {
+  background: linear-gradient(
+    355deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(13, 0, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+@theme {
+  --font-google-sans-code: "Google Sans Code", monospace;
+}
