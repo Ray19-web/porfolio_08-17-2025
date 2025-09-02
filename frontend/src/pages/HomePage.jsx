@@ -9,6 +9,8 @@ import HeroRight from "../components/ContentOne";
 import Footer from "../components/Footer";
 import AboutPage from "./AboutPage";
 import SkillsTechStack from "./SkillsTechStack";
+import Experience from "./Experience";
+import Project from "./pageCss/Project";
 
 // Basic page fade-in animation
 const pageVariants = {
@@ -140,6 +142,8 @@ function HomePage() {
         <AboutPage />
       </motion.div>
       <SkillsTechStack />
+      <Experience />
+      <Project />
 
       <Footer />
     </motion.div>
