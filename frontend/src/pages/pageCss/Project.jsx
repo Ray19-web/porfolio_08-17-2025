@@ -15,7 +15,7 @@ function Project() {
   }, []);
 
   return (
-    <div id="projects" className="font-google-sans-code lg:m-10 md:m-10 rounded-2xl bg-white dark:bg-gray-800 transition-colors duration-300">
+    <div id="projects" className="font-google-sans-code m-4 mt-10 lg:m-10 md:m-10 rounded-2xl  bg-white dark:bg-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-6 py-12">
         {/* Main Header */}
         <h2
